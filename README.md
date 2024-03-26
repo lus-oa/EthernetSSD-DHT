@@ -1,1 +1,1 @@
-# Ethernet-SSD Distributed Hash Key-Value store
+# Ethernet-SSD Distributed Hash Key-Value Store
