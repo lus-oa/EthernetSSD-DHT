@@ -1,4 +1,4 @@
-#include "kademlia/dequeue.h"
+#include "dequeue.h"
 
 // 初始化双端队列
 void initDeque(Deque *deque) {
