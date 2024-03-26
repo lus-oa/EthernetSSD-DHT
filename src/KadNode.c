@@ -1,4 +1,4 @@
-#include "kademlia/KadNode.h"
+#include "KadNode.h"
 
 // it is better to give a table/recomputation
 uint8_t k_id_distance(uint64_t dis)
