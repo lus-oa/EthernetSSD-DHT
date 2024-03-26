@@ -1,4 +1,4 @@
-#include "kademlia/hash_map.h"
+#include "hash_map.h"
 
 void add_user(uint64_t user_id, struct my_hash **users)
 {
