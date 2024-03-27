@@ -300,7 +300,7 @@ void join(Node *locla_node, Node *remote_node)
 	ip_addr.addr = remote_node->l_ip; // 获取远端ip地址
 	int error1 = 0;
 	error1 = udp_sendto(udpecho_pcb, udp_pld, &ip_addr, remote_node->l_port); // 调用函数层层下发到网卡再发出
-	pbuf_free(udp_pld);														  // 释放分配的空间
+	pbuf_free(udp_pld);														  // 释放空间
 	xil_printf("Send join request to server!, server ip:%08x, error1 %d\n", remote_node->l_ip, error1);
 }
 
