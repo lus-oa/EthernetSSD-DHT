@@ -18,7 +18,6 @@
 uint32_t total_nodes;
 uint64_t id_distance(uint64_t xId, uint64_t yId);
 
-// it is better to give a table/recomputation
 uint8_t k_id_distance(uint64_t dis);
 
 uint64_t local_nodeId;
